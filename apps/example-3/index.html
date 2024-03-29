@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button disabled>Click me!</button>
+  <p></p>
+</body>
+<script defer>
+  const button = document.querySelector('button')
+  const p = document.querySelector('p')
+  setTimeout(() => {
+    button.disabled = false
+    }, 3000)
+    button.addEventListener('click', () => {
+      p.innerText = 'button was clicked'
+    })
+</script>
+</html>

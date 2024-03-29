@@ -1,0 +1,23 @@
+{
+  "name": "playwright-vs-cypress-stability",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "example-1": "serve apps/example-1",
+    "example-2": "serve apps/example-2",
+    "example-3": "serve apps/example-3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.7.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.30",
+    "serve": "^14.2.1",
+    "typescript": "^5.4.3"
+  }
+}
